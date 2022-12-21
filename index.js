@@ -20,11 +20,11 @@ function logWhisper(string) {
 }
 
 function sayHiToHeadphonedRoommate(string) {
-  if(string == string.tolowerCase()) {
+  if(string == string.toLowerCase()) {
     return cantHear;
   }else if(string == string.toUpperCase()) {
     return yesIndeed;
-  }else if(string == "let's have dinner together!") {
+  }else if(string == `Let's have dinner together!`) {
     return ilytoo;
   }
 }
